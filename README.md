@@ -23,12 +23,21 @@ Compared with other programming languages, Python has three main advantages:
 
 ## How the Book Is Organized
 As mentioned earlier, the points in this book have been carefully selected for beginners, and they are the building blocks for constructing advanced programming concepts. You should read this book chapter by chapter.
+
 Chapter 1 introduces what programming is and how to write your first Python program using the Thonny IDE.
+
 Chapter 2 introduces **variables** and three basic types: Numeric, String, and Boolean.
+
 Chapter 3 introduces four essential **data structures**: list, tuple, dictionary, and set.
+
 Chapter 4 introduces **control structures**: conditional structure and loop structure, specifically, `if` statement, `match` statement, `while` statement, and `for` statement.
+
 Chapter 5 introduces **functions** and concepts of parameters, arguments, return value, and scopes.
+
 Chapter 6 introduces **classes** and **objects**, which are the cornerstones on which the Python is built.
+
 Chapter 7 introduces **modules** and **packages**. One of the major reasons for Python’s popularity is the large number of built-in and third-party modules and packages, which together form a large community.
+
 Chapter 8 introduces how to read from or write to files, which often store data our program needs.
+
 Chapter 9 implements a command-line program, which is an “Employee Management System.”
