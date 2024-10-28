@@ -6,12 +6,19 @@
       "source.organizeImports": "explicit"
     }
   },
-  "isort.args": ["--profile", "black"],
+  "isort.args": [
+    "--profile",
+    "black"
+  ],
   "mypy-type-checker.args": [],
-  "flake8.args": ["--ignore=E501,E203,W503"],
+  "flake8.args": [
+    "--ignore=E501,E203,W503"
+  ],
   "python.testing.unittestEnabled": false,
   "python.testing.pytestEnabled": true,
-  "python.testing.pytestArgs": ["tests"],
+  "python.testing.pytestArgs": [
+    "tests"
+  ],
   "python.analysis.extraPaths": [],
   "python.analysis.autoImportCompletions": true,
   "python.analysis.typeCheckingMode": "basic",
@@ -19,7 +26,9 @@
   "python.analysis.inlayHints.variableTypes": false,
   "python.analysis.inlayHints.functionReturnTypes": true,
   "python.analysis.inlayHints.pytestParameters": true,
-  "python.analysis.fixAll": ["source.unusedImports"],
+  "python.analysis.fixAll": [
+    "source.unusedImports"
+  ],
   "python.envFile": "${workspaceFolder}/.env",
   // Notebook Settings
   "notebook.outline.showCodeCells": true,
@@ -62,5 +71,6 @@
   "powermode.enabled": true,
   "powermode.shake.intensity": 0,
   "powermode.combo.counterEnabled": "hide",
-  "powermode.combo.location": "off"
+  "powermode.combo.location": "off",
+  "taipyStudio.gUI.elementsFilePaths": []
 }
