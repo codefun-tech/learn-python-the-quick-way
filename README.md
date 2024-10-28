@@ -40,4 +40,19 @@ Chapter 7 introduces **modules** and **packages**. One of the major reasons for 
 
 Chapter 8 introduces how to read from or write to files, which often store data our program needs.
 
-Chapter 9 implements a command-line program, which is an “Employee Management System.”
+Chapter 9 implements a command-line program, which is an “Employee Management System”.
+
+## Follow-ups
+
+### Implement EMS(Employee Management System) with SQLite3
+
+We implement the Employee Management System with SQLite3 in folder _code/ems_with_sqlite3_.
+
+If you don't know about databases like SQLite3, you can follow the tutorial [SQLite for Python and Database Beginners
+](https://codefun.tech/sqlite-for-python-and-database-beginners/).
+
+### Implement EMS(Employee Management System) with Click
+
+After replacing CSV with SQLite3, we will continue to replace the `argparse` module with the `click` module.
+
+`Click` is a third-party module that needs to be installed before being used. You can install it by running `pip install click` or adding it to the `requirements.txt` file and running `pip install -r requirements.txt`.
