@@ -50,8 +50,9 @@ def clear_db(table):
 
 
 @click.command("list", help="List employees or departments.")
-@click.argument(
-    "item",
+@click.option(
+    "-i",
+    "--item",
     type=click.Choice(["employees", "departments"], case_sensitive=False),
     required=True,
 )
